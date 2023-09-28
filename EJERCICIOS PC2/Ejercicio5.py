@@ -4,8 +4,8 @@ def validacion(numero, digito):
     return cantidad
 while True:
     try:
-        numero1 = int(input('Ingrese el número'))
-        digito1= int(input('Ingrese el digito'))
+        numero1 = int(input('Ingrese el número: '))
+        digito1= int(input('Ingrese el digito: '))
         print(f"Número ingresado: {numero1}") 
         print(f"Digito: {digito1}") 
         print(f"Cantidad de veces {digito1} en el número: {validacion(numero1,digito1)}")
